@@ -17,7 +17,7 @@ post["uid"] = 2204
 post["name"] = "hzyuxiaohua"
 
 # accessing dictionary item
-print(post["id"])
+print(post["uid"])
 
 if 'location' in post:
     print post["location"]
@@ -32,5 +32,6 @@ except KeyError:
 for k,v in post.items():
     print(k, "=", v)
 
-# id = 2204
-# name = "hzyuxiaohua"
+# ('email', '=', 'yuxiaohua.apple@gmail.com')
+# ('uid', '=', 2204)
+# ('name', '=', 'hzyuxiaohua')
