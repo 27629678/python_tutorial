@@ -103,3 +103,15 @@ if 1 in odds :
     print True
 
 # True
+
+# List Comprehensions(列表推导)
+
+# [expr for val in collection]
+
+# [expr for val in collection if <test>]
+
+# [expr for val in collection if <test1> and <test2>]
+
+# [expr for val1 in collection1 and val2 in collection2]
+
+squires = [i**2 for i in range(1, 100)]
